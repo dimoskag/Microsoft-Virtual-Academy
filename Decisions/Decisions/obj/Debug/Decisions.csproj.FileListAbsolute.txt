@@ -1,6 +1,0 @@
-C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Decisions\Decisions\bin\Debug\Decisions.exe.config
-C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Decisions\Decisions\bin\Debug\Decisions.exe
-C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Decisions\Decisions\bin\Debug\Decisions.pdb
-C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Decisions\Decisions\obj\Debug\Decisions.csprojResolveAssemblyReference.cache
-C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Decisions\Decisions\obj\Debug\Decisions.exe
-C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Decisions\Decisions\obj\Debug\Decisions.pdb
