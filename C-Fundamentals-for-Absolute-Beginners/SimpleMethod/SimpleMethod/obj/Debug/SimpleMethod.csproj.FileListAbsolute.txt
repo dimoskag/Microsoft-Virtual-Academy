@@ -1,0 +1,6 @@
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\SimpleMethod\SimpleMethod\bin\Debug\SimpleMethod.exe.config
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\SimpleMethod\SimpleMethod\bin\Debug\SimpleMethod.exe
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\SimpleMethod\SimpleMethod\bin\Debug\SimpleMethod.pdb
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\SimpleMethod\SimpleMethod\obj\Debug\SimpleMethod.csprojResolveAssemblyReference.cache
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\SimpleMethod\SimpleMethod\obj\Debug\SimpleMethod.exe
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\SimpleMethod\SimpleMethod\obj\Debug\SimpleMethod.pdb
