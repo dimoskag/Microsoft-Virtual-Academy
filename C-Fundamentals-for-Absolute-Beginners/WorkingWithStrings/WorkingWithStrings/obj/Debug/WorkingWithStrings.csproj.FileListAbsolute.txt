@@ -1,0 +1,6 @@
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\WorkingWithStrings\WorkingWithStrings\bin\Debug\WorkingWithStrings.exe.config
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\WorkingWithStrings\WorkingWithStrings\bin\Debug\WorkingWithStrings.exe
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\WorkingWithStrings\WorkingWithStrings\bin\Debug\WorkingWithStrings.pdb
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\WorkingWithStrings\WorkingWithStrings\obj\Debug\WorkingWithStrings.csprojResolveAssemblyReference.cache
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\WorkingWithStrings\WorkingWithStrings\obj\Debug\WorkingWithStrings.exe
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\WorkingWithStrings\WorkingWithStrings\obj\Debug\WorkingWithStrings.pdb
