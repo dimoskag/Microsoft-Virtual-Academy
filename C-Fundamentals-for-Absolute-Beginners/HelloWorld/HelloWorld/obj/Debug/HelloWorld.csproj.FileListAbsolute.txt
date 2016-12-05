@@ -1,0 +1,6 @@
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
