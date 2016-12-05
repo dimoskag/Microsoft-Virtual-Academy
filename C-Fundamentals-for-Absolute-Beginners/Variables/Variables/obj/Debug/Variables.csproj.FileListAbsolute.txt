@@ -1,0 +1,6 @@
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Variables\Variables\bin\Debug\Variables.exe.config
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Variables\Variables\bin\Debug\Variables.exe
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Variables\Variables\bin\Debug\Variables.pdb
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Variables\Variables\obj\Debug\Variables.csprojResolveAssemblyReference.cache
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Variables\Variables\obj\Debug\Variables.exe
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Variables\Variables\obj\Debug\Variables.pdb
