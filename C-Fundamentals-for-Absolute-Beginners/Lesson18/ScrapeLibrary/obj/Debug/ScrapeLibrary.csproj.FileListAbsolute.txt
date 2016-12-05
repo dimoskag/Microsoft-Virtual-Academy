@@ -1,0 +1,5 @@
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Lesson18\ScrapeLibrary\bin\Debug\ScrapeLibrary.dll
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Lesson18\ScrapeLibrary\bin\Debug\ScrapeLibrary.pdb
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Lesson18\ScrapeLibrary\obj\Debug\ScrapeLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Lesson18\ScrapeLibrary\obj\Debug\ScrapeLibrary.dll
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\Lesson18\ScrapeLibrary\obj\Debug\ScrapeLibrary.pdb
