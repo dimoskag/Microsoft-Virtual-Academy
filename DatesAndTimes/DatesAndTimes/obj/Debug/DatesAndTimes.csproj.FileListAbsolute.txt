@@ -1,0 +1,6 @@
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\DatesAndTimes\DatesAndTimes\bin\Debug\DatesAndTimes.exe.config
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\DatesAndTimes\DatesAndTimes\bin\Debug\DatesAndTimes.exe
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\DatesAndTimes\DatesAndTimes\bin\Debug\DatesAndTimes.pdb
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\DatesAndTimes\DatesAndTimes\obj\Debug\DatesAndTimes.csprojResolveAssemblyReference.cache
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\DatesAndTimes\DatesAndTimes\obj\Debug\DatesAndTimes.exe
+C:\Users\Dimos\Desktop\Microsoft Virtual Academy\C# Fundamentals for Absolute Beginners\DatesAndTimes\DatesAndTimes\obj\Debug\DatesAndTimes.pdb
