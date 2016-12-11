@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>7. JavaScript Functions</title>
+    <script type="text/javascript">
+        function myNewFunction() {
+            alert("Howdy!");
+        }
+        myNewFunction();
+        function myFunction(value) {
+            alert("Howdy, " + value);
+        }
+        myFunction("pardner");
+        function add(firstNumber, secondNumber) {
+            return firstNumber + secondNumber;
+        }
+        var myResult = add(1, 2);
+        alert(myResult);
+        function add2() {
+            var tempValue = 0;
+            for (var i = 0; i < arguments.length; i++) {
+                tempValue += arguments[i];
+            }
+            return tempValue;
+        }
+        var myValue = add(1, 2, 3, 4, 5);
+        alert(myValue);
+        var addMe = function () {
+            return arguments[0] + arguments[1];
+        }
+        var myNewValue = add(1, 2);
+        alert(myNewValue);
+
+        var myResult = (function () {
+            return arguments[0] + arguments[1];
+        })(1, 2);
+        alert(myResult);
+
+        alert((function () {
+            return arguments[0] + arguments[1];
+        })(1, 2));
+    </script>
+</head>
+<body>
+    <h1>7. JavaScript Functions</h1>
+    <input type="submit" onclick="myNewFunction()" value="Click me!" />
+    <input type="submit" onclick="myFunction()" value="Click me!" />
+</body>
+</html>
