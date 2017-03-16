@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="SurveyApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+
+        <TextBlock Margin="22,52,228,217">Name</TextBlock>
+        <TextBox Margin="118,48,116,219"></TextBox>
+        <TextBlock Margin="22,103,271,179">Product</TextBlock>
+        <ComboBox SelectedIndex="0" Name="cboProduct" Margin="118,103,118,169">
+            <ComboBoxItem Content="Deluxe Photo Paper"/>
+            <ComboBoxItem Content="Financial Calculator"/>
+            <ComboBoxItem Content="4GB USB Thumb Drive"/>
+        </ComboBox>
+        <TextBlock Grid.Row="0" HorizontalAlignment="Stretch" 
+                   VerticalAlignment="Top" Margin="22,10,265,0">
+            <Run Text="Survey"/>
+        </TextBlock>
+        <Border Padding="3.5" HorizontalAlignment="Left" Margin="10,147,0,10" Width="380">
+            <StackPanel Width="Auto" Height="Auto" Margin="-4,-4,-3,-3">
+                <TextBlock>
+                    <Run Text="Value"/>
+                </TextBlock>
+                <RadioButton Content="Outstanding"/>
+                <RadioButton Content="Good"/>
+                <RadioButton Content="Unsatisfied"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>
