@@ -23,6 +23,12 @@ namespace AdoDotNetBasics
             SqlConnectionDemo demo = new SqlConnectionDemo();
             await demo.GetDatasetMethod("select * from Customers");
          }).GetAwaiter().GetResult();
+         
+         Task.Run(async () =>
+         {
+            AddParametersQuery demo = new AddParametersQuery();
+            await demo.GetQueryWithParam("select * from Customers where city = @clause", "London");
+         }).GetAwaiter().GetResult();
 
          Console.ReadKey();
       }
