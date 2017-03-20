@@ -29,6 +29,12 @@ namespace AdoDotNetBasics
             AddParametersQuery demo = new AddParametersQuery();
             await demo.GetQueryWithParam("select * from Customers where city = @clause", "London");
          }).GetAwaiter().GetResult();
+         
+         Task.Run(async () =>
+         {
+            ExecStoredProcedure demo = new ExecStoredProcedure();
+            await demo.RunStoredProcedureWithParam("CustOrderHist", "FURIB");
+         }).GetAwaiter().GetResult();
 
          Console.ReadKey();
       }
