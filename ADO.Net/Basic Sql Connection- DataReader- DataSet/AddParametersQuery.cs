@@ -18,7 +18,7 @@ namespace AdoDotNetBasics
       /// <returns></returns>
       public async Task GetQueryWithParam(string sqlquery, string clause)
       {
-         using (SqlConnection conn = new SqlConnection("Data Source=Q-WKS-DKAGI;Initial Catalog=NORTHWND;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+         using (SqlConnection conn = new SqlConnection("Data Source=local;Initial Catalog=NORTHWND;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
          {
             //Pass the connection to a command object
             using (SqlCommand cmd = new SqlCommand(sqlquery, conn))
