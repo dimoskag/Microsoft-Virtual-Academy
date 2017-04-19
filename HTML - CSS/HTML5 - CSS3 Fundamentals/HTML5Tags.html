@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Html5shim javascript file for html5 rendering properly in older versions-->
+        <meta charset="utf-8">
+        <meta name="description" content="HTML5 and CSS3 tags" />
+        <meta name="keywords" content="HTML5, CSS3, Tags" />
+        <meta name="author" content="Dimos Kag" />
+        <meta name="revised" content="Dimos Kag, 01/01/0001" />
+        <meta http-equiv="refresh" content="60" />
+        <title>HTML5 and CSS3 Fundamentals</title>
+        <link rel="stylesheet" type="text/css" href="CSS3Example.css" media="screen">
+    </head>
+    <body>
+        <header>
+            <hgroup>
+                <h1>Test h1</h1>
+                <h2>Test h2</h2>   
+            </hgroup>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <hr>
+            <article>
+                <h1>Article h1</h1>
+                <h2>Article h2</h2>
+                <p>
+                    <h3>Article h3</h3><br>
+                    <br>
+                </p>
+                <figure>
+                    <img src="" alt="test">
+                    <figcaption>Caption for the image of the figure</figcaption>
+                </figure>
+                <p></p>
+                <dl>
+                    <dt>definition term</dt>
+                    <dd>definition description</dd>
+                    <dt>definition term 2</dt>
+                    <dd>definition description 1</dd>
+                    <dd>definition description 2</dd>
+                </dl>
+                <hr>
+                <pre>
+                    <code class="language-c#">
+                        public class hello 
+                        {
+                            public static void Main()
+                            {
+                                System.Console.WriteLine("Hello world!");
+                            }
+                        }
+                    </code>
+                </pre>
+                <form method="POST" action="https://www.test1.test1/order.aspx">
+                    <p><label for="testName">Test Name: </label><input type="text" id="testName" name="testName" maxlength="20" autofocus></p>
+                    <p><label for="testEmail">Test Email: </label><input type="email" id="testEmail" name="testEmail" maxlength="30" required></p>
+                    <p><label for="testphone">Test Phone: </label><input type="tel" id="testphone" name="testphone" maxlength="18" required></p>
+                    <p><label for="testurl">Test URL: </label><input type="url" id="testurl" name="testurl" maxlength="50" required placeholder="http://test"></p>
+                    <p><label for="testnumeric">Test Numeric: </label><input type="number" id="testnumeric" name="testnumeric" maxlength="50" required></p>
+                    <p><label for="testrangeinput">Test Range Input: </label><input type="range" id="testrangeinput" name="testrangeinput" value="50"></p>
+                    <p>
+                        <label for="testdatalist">Test Data List: </label>
+                        <input type="text" id="testdatalist" name="testdatalist">
+                        <datalist id="testdatalist">
+                            <option label="First" value="First">
+                            <option label="Second" value="Second">
+                            <option label="Third" value="Third">
+                        </datalist>
+                    </p>
+                    <fieldset>
+                        <legend>Test Radio Selection</legend>
+                        <p><label><input type="radio" name="radiotest" value="1">Value 1</label></p>
+                        <p><label><input type="radio" name="radiotest" value="2">Value 2</label></p>
+                        <p><label><input type="radio" name="radiotest" value="3">Value 3</label></p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Test Radio Selection</legend>
+                        <p><label><input type="checkbox" name="checkboxtest" value="1">Value 1</label></p>
+                        <p><label><input type="checkbox" name="checkboxtest" value="2">Value 2</label></p>
+                        <p><label><input type="checkbox" name="checkboxtest" value="3">Value 3</label></p>
+                    </fieldset>
+                    <p>
+                        <label for="testselect">Testing options</label>
+                        <select name="testselect">
+                            <option value="o1">Option 1</option>
+                            <option value="o2" selected>Option 2</option>
+                            <option value="o3">Option 3</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="comments">Comments: </label>
+                        <textarea name="comments" cols="50" rows="5" maxlength="1000"></textarea>    
+                    </p>
+                    <p><input type="submit" value="continue"></p>
+                    <p><input type="reset" value="reset"></p>
+                </form>
+            </article>
+            <hr>
+            <article>
+                <div>
+                    <p><a href="test" target="_blank">Test</a></p>
+                    <p><a href="../subfolder/subfolder.html">To the subfolder</a></p>
+                    <p><a href="#bottom">To bottom</a></p>
+                    <strong>Test Strong element</strong>
+                    <span>
+                        <b>Test the b element</b>
+                        <i>Test the i element</i>
+                    </span>
+                </div>
+                <h3>Video Element</h3>
+                <video src="the source of the video" controls width="960" height="540" autoplay poster="thumbnail" preload="true">Test Video with no src</video>
+                <ol>
+                    <li>
+                        &lt;HTML5 encodings&gt;
+                    </li>
+                    <li>Test ol</li>
+                </ol>
+                <aside>Test aside content</aside>
+                <h1>Tables</h1>
+                <table>
+                    <thead>
+                        <th>head1</th>
+                        <th>head2</th>
+                        <th>head3</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Row header 1</th>
+                            <td>data</td>
+                            <td>data</td>
+                        </tr>
+                        <tr>
+                            <th>Row header 2</th>
+                            <td>data</td>
+                            <td>data</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Testing colspan</td>
+                        </tr>
+                        <tr>
+                            <th>Row header 3</th>
+                            <td>data</td>
+                            <td>data</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>Footer header row</th>
+                            <td>data</td>
+                            <td>data</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </article>
+            <hr>
+        </section>
+        <footer>
+            <a name="bottom">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <small>Legal Copyright character map windows</small>
+        </footer>
+    </body>
+</html>
