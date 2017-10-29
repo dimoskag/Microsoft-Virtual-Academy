@@ -16,6 +16,8 @@ namespace Restriction_Operators
             p.WhereSimple1();
             p.WhereSimple2();
             p.WhereSimple3();
+            p.WhereDrilldown();
+            p.WhereIndexed();
 
             Console.ReadLine();
         }
@@ -66,6 +68,38 @@ namespace Restriction_Operators
             }
         }
 
+        public void WhereDrilldown()
+        {
+            List<Customer> customers = GetCustomerList();
+
+            var waCustomers = from c in customers
+                              where c.Region == "WA"
+                              select c;
+
+            Console.WriteLine("Where - Drilldown : This sample uses where to find all customers in Washington and then uses the resulting sequence to drill down into their orders.");
+            foreach (var customer in waCustomers)
+            {
+                Console.WriteLine("Customer {0}: {1}", customer.CustomerID, customer.CompanyName);
+                foreach (var order in customer.Orders)
+                {
+                    Console.WriteLine("     Order {0} : {1}", order.OrderID, order.OrderDate);
+                }
+            }
+        }
+
+        public void WhereIndexed()
+        {
+            string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            var shortDigits = digits.Where((digit, index) => digit.Length < index);
+
+            Console.WriteLine("Where - Indexed : This sample demonstrates an indexed Where clause that returns digits whose name is shorter than their value.");
+            foreach (var d in shortDigits)
+            {
+                Console.WriteLine("The word {0} is shorter than its value.", d);
+            }
+        }
+
         public class Product
         {
             public int ProductID { get; set; }
@@ -99,7 +133,7 @@ namespace Restriction_Operators
         public List<Product> GetProductList()
         {
             if (productList == null)
-                createLists();
+                CreateLists();
 
             return productList;
         }
@@ -107,12 +141,12 @@ namespace Restriction_Operators
         public List<Customer> GetCustomerList()
         {
             if (customerList == null)
-                createLists();
+                CreateLists();
 
             return customerList;
         }
 
-        private void createLists()
+        private void CreateLists()
         {
             productList =
                 new List<Product> {
