@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\.NET",
-    "\\.NET\\LINQ"
+    "\\.NET\\LINQ",
+    "\\.NET\\LINQ\\Restriction Operators"
   ],
-  "SelectedNode": "\\.NET\\LINQ",
   "PreviewInSolutionExplorer": false
 }
