@@ -3,7 +3,14 @@
     "",
     "\\.NET",
     "\\.NET\\LINQ",
-    "\\.NET\\LINQ\\Restriction Operators"
+    "\\.NET\\LINQ\\Data Creation",
+    "\\.NET\\LINQ\\Data Creation\\.vs",
+    "\\.NET\\LINQ\\Data Creation\\.vs\\Data Creation",
+    "\\.NET\\LINQ\\Data Creation\\.vs\\Data Creation\\v15",
+    "\\.NET\\LINQ\\Data Creation\\.vs\\Data Creation\\v15\\Server",
+    "\\.NET\\LINQ\\Data Creation\\.vs\\Data Creation\\v15\\Server\\sqlite3",
+    "\\.NET\\LINQ\\Projection Operators\\Projection Operators"
   ],
+  "SelectedNode": "\\.NET\\LINQ",
   "PreviewInSolutionExplorer": false
 }
