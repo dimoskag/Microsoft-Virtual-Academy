@@ -47,6 +47,21 @@ namespace Projection_Operators
             }
         }
 
+        public void SelectTransformation()
+        {
+            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            string[] strings = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            var textNums = from n in numbers
+                           select strings[n];
+
+            Console.WriteLine("Select - Transformation : This sample uses select to produce a sequence of strings representing the text version of a sequence of ints.");
+            foreach (var s in textNums)
+            {
+                Console.WriteLine(s);
+            }
+        }
+
         public class Product
         {
             public int ProductID { get; set; }
