@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.NET",
+    "\\.NET\\LINQ"
   ],
+  "SelectedNode": "\\.NET\\LINQ",
   "PreviewInSolutionExplorer": false
 }
