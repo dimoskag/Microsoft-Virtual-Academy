@@ -15,6 +15,12 @@ namespace Projection_Operators
             Program p = new Program();
             p.SelectSimple1();
             p.SelectSimple2();
+            p.SelectTransformation();
+            p.SelectAnonymousTypes1();
+            p.SelectAnonymousTypes2();
+            p.SelectAnonymousTypes3();
+            p.SelectIndexed();
+            p.SelectFiltered();
 
             Console.ReadLine();
         }
@@ -59,6 +65,78 @@ namespace Projection_Operators
             foreach (var s in textNums)
             {
                 Console.WriteLine(s);
+            }
+        }
+
+        public void SelectAnonymousTypes1()
+        {
+            string[] words = { "aPPLE", "BlUeBeRrY", "cHeRrY" };
+
+            var upperLowerWords = from w in words
+                                  select new { Upper = w.ToUpper(), Lower = w.ToLower() };
+
+            Console.WriteLine("Select - Anonymous Types 1 : This sample uses select to produce a sequence of the uppercase and lowercase versions of each word in the original array.");
+            foreach (var ul in upperLowerWords)
+            {
+                Console.WriteLine("Uppercase: {0}, Lowercase: {1}", ul.Upper, ul.Lower);
+            }
+        }
+
+        public void SelectAnonymousTypes2()
+        {
+            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            string[] strings = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            var digitOddEvens = from n in numbers
+                                select new { Digit = strings[n], Even = (n % 2 == 0) };
+
+            Console.WriteLine("Select - Anonymous Types 2 : This sample uses select to produce a sequence containing text representations of digits and whether their length is even or odd.");
+            foreach (var digit in digitOddEvens)
+            {
+                Console.WriteLine("The digit {0} is {1}.", digit.Digit, digit.Even ? "even" : "odd");
+            }
+        }
+
+        public void SelectAnonymousTypes3()
+        {
+            List<Product> products = GetProductList();
+
+            var productInfo = from p in products
+                              select new { p.ProductName, p.Category, Price = p.UnitPrice };
+
+            Console.WriteLine("Select - Anonymous Types 3 : This sample uses select to produce a sequence containing some properties of Products, including UnitPrice which is renamed to Price in the resulting type.");
+            foreach (var p in productInfo)
+            {
+                Console.WriteLine("{0} is in the category {1} and costs {2} per unit.", p.ProductName, p.Category, p.Price);
+            }
+        }
+
+        public void SelectIndexed()
+        {
+            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            var numsInPlace = numbers.Select((num, index) => new { Num = num, InPlace = (num == index) });
+
+            Console.WriteLine("Select - Indexed : This sample uses an indexed Select clause to determine if the value of ints in an array match their position in the array.");
+            foreach (var n in numsInPlace)
+            {
+                Console.WriteLine("{0} : {1}", n.Num, n.InPlace);
+            }
+        }
+
+        public void SelectFiltered()
+        {
+            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            var lowNums = from n in numbers
+                          where n < 5
+                          select digits[n];
+
+            Console.WriteLine("Select - Filtered : This sample combines select and where to make a simple query that returns the text form of each digit less than 5.");
+            foreach (var num in lowNums)
+            {
+                Console.WriteLine(num);
             }
         }
 
