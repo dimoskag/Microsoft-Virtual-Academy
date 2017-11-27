@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.NET",
     "\\.NET\\LINQ",
     "\\.NET\\LINQ\\Projection Operators",
-    "\\.NET\\LINQ\\Projection Operators\\Projection Operators",
-    "\\.NET\\LINQ\\Restriction Operators\\Restriction Operators",
-    "\\Node.Js\\NodeMVA"
+    "\\.NET\\LINQ\\Projection Operators\\Projection Operators"
   ],
   "SelectedNode": "\\.NET",
   "PreviewInSolutionExplorer": false
