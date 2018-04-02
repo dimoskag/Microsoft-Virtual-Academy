@@ -1,5 +1,5 @@
 <h1>
-  {{minutes}}:{{seconds}}
+  {{minutes}}:{{seconds | number: '2.0'}}
 </h1>
 <p>
   <button (click) = "togglePause()">
