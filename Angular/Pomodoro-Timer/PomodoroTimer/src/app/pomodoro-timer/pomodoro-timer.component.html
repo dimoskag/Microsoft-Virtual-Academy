@@ -1,8 +1,11 @@
-<h1>
-  {{minutes}}:{{seconds | number: '2.0'}}
-</h1>
-<p>
-  <button (click) = "togglePause()">
-    {{buttonLabel}}
-  </button>
-</p>
+<div class="text-center">
+  <img src="../../assets/img/pomodoro.png" alt="Pomodoro" width="250" height="250">
+  <h1>
+    {{minutes}}:{{seconds | number: '2.0'}}
+  </h1>
+  <p>
+    <button (click) = "togglePause()" class="btn btn-danger">
+      {{buttonLabel}}
+    </button>
+  </p>
+</div>
